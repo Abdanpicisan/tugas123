@@ -22,3 +22,20 @@ int main(){
 	sk8hi.lini = " syndicate ";
 
 
+	cout << (slipon.bahan);
+	cout << (slipon.lini);
+    slipon.jenis("unlaces low");
+    
+    cout<< (oldskool.bahan);
+    cout << (oldskool.lini);
+    oldskool.jenis("laces low");
+
+	cout<< (sk8hi.bahan);
+	cout<< (sk8hi.lini);
+	sk8hi.jenis("laces high");
+}
+void sepatuVans::jenis(string bentuk){
+	cout<<"bentuknya "<<bentuk<<"!!"<<endl;
+}
+
+
